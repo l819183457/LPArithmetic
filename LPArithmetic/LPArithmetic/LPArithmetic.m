@@ -124,7 +124,7 @@
     for (int j = 0; j <letters.count ; j++) {
         NSString * letter = letters[j];
         if ([letter isKindOfClass:[NSArray class]]) {
-            NSArray * temp1 =[NSMutableArray arrayWithArray:(nsarra)letter];
+            NSArray * temp1 =[NSMutableArray arrayWithArray:(NSArray *)letter];
             NSArray * subLetter1 =  [LPArithmetic hightLevelCalculation:temp1];
             NSString * temp2 = [LPArithmetic queueCalculation:subLetter1];
             [tempLetters removeObjectAtIndex:j ];
