@@ -12,6 +12,19 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LPArithmetic : NSObject
 
+////算法  混合运算算式（不带括号）
++ (NSString *)arithmeticLevelEquel:(NSString *)FormulaStr;  //version 1.0
+
+
+////算法  混合运算算式（带括号）
+
++ (NSString *)arithmeticHighLevelEquel:(NSString *)FormulaStr;  //version 1.0
+
+//顺序执行
++ (NSString *)arithmeticQueueEquel:(NSString *)formulaStr; //version 1.0
+
+//简单的计算
++ (NSString *)sinpleCalculationFisrt:(NSString *)fisrtStr second:(NSString *)secondStr calculation:(NSString *)calculation;  //version 1.0
 @end
 
 NS_ASSUME_NONNULL_END
