@@ -27,6 +27,10 @@
     NSString *str5 =  [LPArithmetic arithmeticQueueEquel:@"1+2*3"];
     NSString *str6 =  [LPArithmetic arithmeticQueueEquel:@"1*3/2+1"];
     NSString *str7 =  [LPArithmetic arithmeticHighLevelEquel:@"1*(3/2)+1"];
+    
+    
+    NSString * str8 = [LPArithmetic kexuejisuanfa:@"0.000000017141143028554288" rms:4];
+
 
 
     

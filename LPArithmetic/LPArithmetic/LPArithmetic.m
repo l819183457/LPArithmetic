@@ -212,4 +212,34 @@
     }
     return [NSString stringWithFormat:@"%@",result];
 }
+
+
+/*
+ 科学计数法，保留n个有效值
+ */
+//+(NSString *)scientific:(NSString * )doubleStr  rms:(NSInteger)n {
+//    long double num = [[NSString stringWithFormat:@"%@",doubleStr] floatValue];
+//    
+//    NSNumberFormatter * formatter = [[NSNumberFormatter alloc]init];
+//
+//    formatter.numberStyle = kCFNumberFormatterScientificStyle;
+//    NSString *  numStr = [formatter stringFromNumber:[NSNumber numberWithDouble:num]];
+//    
+//    if (n == MAXFLOAT) {
+//        return numStr;
+//    }
+//    numStr =  [numStr stringByReplacingOccurrencesOfString:@"E" withString:@"e"];
+//    if ([numStr containsString:@"e"]) {
+//        NSArray * nunArr = [numStr componentsSeparatedByString:@"e"];
+//        long double  temp = [[nunArr firstObject] floatValue];
+//        numStr = [NSString stringWithFormat:@"%.4Lf",temp];
+//        numStr.
+//    }
+//    
+//    return numStr;
+//    
+//    
+//    //    return string;
+//}
+
 @end

@@ -25,6 +25,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 //简单的计算
 + (NSString *)sinpleCalculationFisrt:(NSString *)fisrtStr second:(NSString *)secondStr calculation:(NSString *)calculation;  //version 1.0
+
+/*
+ 科学计数法，保留n个有效值
+ */
++(NSString *)scientific:(NSString * )doubleStr  rms:(NSInteger)n ;
 @end
 
 NS_ASSUME_NONNULL_END
